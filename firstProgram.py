@@ -1,15 +1,15 @@
-# list
-studentinfo = ["Amit", 21, "BCA", 6.8]
-print(studentinfo[2])  # This will raise an error because the index is not a list
+dict = {
+    "Name" : "Amit Kumar",
+    "Age" : 21,
+    "Course" : "Python AI",
+    "State" : "Himachal Pradesh"
+}
 
-#tuple 
-fruits = ("apple", "banana", "cherry", "orange")
-print(len(fruits[0]))
+print(type(dict))
+print(dict)
+print(type(dict["Age"]))
 
-
-#string
-
-#multiline string
-max_string = """ This is a Multi line string"""
-print(max_string)
-
+print(dict.get("Course"))
+print(dict.values())
+print(dict.keys())
+print(dict.items())
