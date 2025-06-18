@@ -13,3 +13,6 @@ print(dict.get("Course"))
 print(dict.values())
 print(dict.keys())
 print(dict.items())
+
+dict["Name"] = "John Doe"
+print(dict)
