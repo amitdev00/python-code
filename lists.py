@@ -1,4 +1,4 @@
-#list
+# list
 # studentinfo =["Amit Kumar", 21, "BCA", "Himachal Pradesh"]
 
 # print(studentinfo)
@@ -11,12 +11,13 @@
 
 # print(studentinfo[0][::-1])
 
-#reverse a string in a list
+# reverse a string in a list
 technology = ["Programming", "Python"]
 print(technology[1][::-1])
 
-#reverse a number in a list
-numbers = [1,12, 124, 1234, 12345]
+# reverse a number in a list
+numbers = [1, 12, 124, 1234, 12345]
 print(str(numbers[4])[::-1])
 print(str(numbers[3])[::-1])
 
+print(len(numbers))
