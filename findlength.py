@@ -23,3 +23,5 @@ else:
     #slicing 
     print(str1[1::])
     print(str1[-1::])
+
+#i create a new branch called main1
