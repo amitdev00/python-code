@@ -1,15 +1,17 @@
-# list
-studentinfo = ["Amit", 21, "BCA", 6.8]
-print(studentinfo[2])  # This will raise an error because the index is not a list
+#  Print all the numbers from 1 to 10 which are divisible by 3
 
-#tuple 
-fruits = ("apple", "banana", "cherry", "orange")
-print(len(fruits[0]))
+# for numbers in range(1, 10):
+#     if numbers % 3 == 0:
+#         print(numbers)
 
 
-#string
+# print all the prime numbers from 1 to 10
 
-#multiline string
-max_string = """ This is a Multi line string"""
-print(max_string)
-
+for num in range(2, 101):
+    is_prime = True
+    for i in range(2, int(num**0.5)+1):
+        if num % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print(num)
