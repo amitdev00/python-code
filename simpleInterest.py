@@ -10,4 +10,3 @@ res = (val1*val2*val3)
 simple_interest = res/100
 print("Simple Interst is: "+ str(simple_interest))
 
-#made changes in the main1 branch
